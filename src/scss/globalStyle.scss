@@ -1,0 +1,27 @@
+button {
+  height: 40px;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
